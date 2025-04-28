@@ -4,8 +4,8 @@
  * @version 17.0.1
  */
 class Chair{
-    static int legs;
-    static String material;
+    int legs;
+    String material;
 
     /**
      * Default constructor of Chair
@@ -38,11 +38,11 @@ class Chair{
      * Gets the number of legs on the Chair
      * @return The number of legs on the Chair
      */
-    static int getLegs(){return legs;}
+    public int getLegs(){return legs;}
 
     /**
      * Gets the material the Chair is made of
      * @return The material the Chair is made of
      */
-    static String getMaterial(){return material;}
+    public String getMaterial(){return material;}
 }
